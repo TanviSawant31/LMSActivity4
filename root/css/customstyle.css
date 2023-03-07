@@ -1,0 +1,280 @@
+/* common for HTML */
+html{
+    font-family: cursive;
+}
+
+body{
+    background-image: url(bdimage.jpg);
+    background-repeat: repeat;
+}
+
+h2 {
+    font-size: 30px;
+    color: maroon;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+/* logo and header section */
+header img {
+    float: left;
+    margin: 20px 20px;
+    }
+
+.heading {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: inherit;
+    color: white;
+    }
+header a{
+    text-decoration: none;
+}
+.backgroundcol{
+    background-color: floralwhite;   
+}
+
+
+/* navigation */
+ul {
+    list-style-type: none;
+}
+
+ul a { 
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding-left: 40px;
+}
+
+.nav{
+    background-color: saddlebrown !important;
+    font-size: 20px;  
+}
+
+.bg-dark {
+    background-color: saddlebrown !important;
+}
+
+/* banner image section */
+.homeimg {
+    width: 100%;
+    height: auto;
+}
+
+.bannertext {
+    padding: 20px;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+
+/* middle section */
+.circle{
+    height: 270px;
+    width: 350px;
+    float: left; 
+    text-align: center;   
+    
+}
+
+.linktext{
+    text-decoration: none;
+    color: maroon;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.circleimg { 
+    height: 200px; 
+    width: 200px; 
+    border-radius: 100%; !important
+    
+}
+
+.circleimg:hover{
+    transform: scale(1.1);   
+}
+/* article section */
+
+.articlesection{
+    clear: both;
+    text-align: center;
+    padding:20px;
+    
+}
+
+.homearticleimg {
+    height: 400px;
+    width: 600px;
+    border: 6px solid darkgreen;
+}
+
+
+/* footer section */
+footer{
+    background-color: darkgreen;
+    color: floralwhite;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+footer-box {
+        min-height: 200px;
+}
+
+
+footer a { 
+    color:goldenrod;
+    font-weight: bolder;
+    text-decoration: none; 
+}
+
+/* End of index.html, header and footer section */
+
+
+/* CSS for About page */
+/* text allignment */
+.headingtext {
+    text-align: center;  
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* End of about page */
+
+
+/* CSS for blog page */
+/* text allignment */
+
+.blogimg {
+    height: 200px;
+    width: 250px;
+    padding: auto;
+    margin: auto;
+}
+
+
+.card {
+   background-color: white;
+    width: auto;
+    height: 300px;
+   
+}
+
+/* End of blog page */
+
+
+/* CSS for article pages */
+/* text allignment */
+.articletext {
+    text-align: center;  
+    padding: 20px;
+}
+
+.articleimg{
+    height: 500px;
+    width: 800px;
+    
+}
+
+/* End of article page */
+
+/* CSS for Tables */
+
+table {
+    border: 2px solid maroon;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+
+/* CSS for photo gallery */
+/* text allignment */
+
+.photo{
+    float: left;
+    
+    
+}
+.galleryimages {
+    padding-bottom:20px;
+    margin-left: 80px;
+    align-items: center;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+/* End of photogallery page */
+
+/* quiz page */
+
+quizborder{
+    border: 1px solid blue;
+    margin-right:auto;
+    margin-left:auto;
+    width:30%;
+    display: block;
+    background-color: lightblue;  
+}
+
+.main-div{
+    width: :100vw;
+    min-height:100vh;
+    display:grid;
+    place-items: center;
+    background-color: floralwhite;
+}
+
+.inner-div{
+    
+    width:40vw;
+    background-color: white;
+    padding:3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem -0.7rem rgba(0,0,0,0.4);
+}
+.inner-div li{
+    font-size: 0.9rem;
+}
+
+input {
+    cursor: pointer;
+}
+
+
+.movebutton{
+    
+    font-size: 18px;
+}
+
+.movebutton:hover{
+    
+    font-size: 18px;
+    background-color: darkblue;
+}
+
+#showScore{
+    background-color: azure;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.scoreArea {
+    display: none;
+    
+}
+
+#showScore btn{
+    margin-top: 2rem;
+    background-color: aqua;
+    color: black;
+}
+/*END OF CSS FILE */
